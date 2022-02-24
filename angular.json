@@ -27,9 +27,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/fontawesome-free/css/all.min.css",
+              "src/assets/css/animate.css/animate.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/bootstrap-icons/bootstrap-icons.css",
+              "src/assets/css/boxicons/css/boxicons.min.css",
+              "src/assets/css/glightbox/css/glightbox.min.css",
+              "src/assets/css/remixicon/remixicon.css",
+              "src/assets/css/swiper/swiper-bundle.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js",
+              "src/assets/js/purecounter/purecounter.js",
+              "src/assets/js/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/js/glightbox/js/glightbox.min.js",
+              "src/assets/js/swiper/swiper-bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,9 +108,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+             
+            ]
           }
         }
       }
